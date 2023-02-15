@@ -8,7 +8,6 @@ export const Stats = styled.section`
   text-align: center;
   border-radius: 7px;
   padding-top: 30px;
-  padding-bottom: 30px;
 `;
 export const Title = styled.h2`
   font-size: 22px;
