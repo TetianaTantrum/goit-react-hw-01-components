@@ -5,6 +5,7 @@ import {
   StatList,
   StatsItem,
   Label,
+  Percentage,
 } from '../Statistics/Statistics.styled';
 
 export default function Statistics({ title, stats }) {
@@ -21,7 +22,7 @@ export default function Statistics({ title, stats }) {
               .padStart(6, 0)}
           >
             <Label>{stat.label} </Label>
-            <span className="percentage">{stat.percentage}%</span>
+            <Percentage> {stat.percentage}%</Percentage>
           </StatsItem>
         ))}
       </StatList>

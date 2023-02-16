@@ -39,5 +39,8 @@ export const StatsItem = styled.li`
 `;
 
 export const Label = styled.span`
-  font-size: 14px;
+  font-size: 12px;
+`;
+export const Percentage = styled.span`
+  line-height: 20px;
 `;
